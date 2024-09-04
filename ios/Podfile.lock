@@ -1,18 +1,18 @@
 PODS:
-  - CryptoSwift (1.8.2)
+  - CryptoSwift (1.8.3)
   - Flutter (1.0.0)
   - flutter_callkit_incoming (0.0.1):
     - CryptoSwift
     - Flutter
-  - flutter_webrtc (0.11.3):
+  - flutter_webrtc (0.9.36):
     - Flutter
-    - WebRTC-SDK (= 125.6422.04)
+    - WebRTC-SDK (= 114.5735.08)
   - path_provider_foundation (0.0.1):
     - Flutter
     - FlutterMacOS
-  - permission_handler_apple (9.3.0):
+  - permission_handler_apple (9.1.1):
     - Flutter
-  - WebRTC-SDK (125.6422.04)
+  - WebRTC-SDK (114.5735.08)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
@@ -39,13 +39,13 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/permission_handler_apple/ios"
 
 SPEC CHECKSUMS:
-  CryptoSwift: c63a805d8bb5e5538e88af4e44bb537776af11ea
-  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  CryptoSwift: 967f37cea5a3294d9cce358f78861652155be483
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
   flutter_callkit_incoming: 417dd1b46541cdd5d855ad795ccbe97d1c18155e
-  flutter_webrtc: 75b868e4f9e817c7a9a42ca4b6169063de4eec9f
-  path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
-  permission_handler_apple: 9878588469a2b0d0fc1e048d9f43605f92e6cec2
-  WebRTC-SDK: c3d69a87e7185fad3568f6f3cff7c9ac5890acf3
+  flutter_webrtc: 55df3aaa802114dad390191a46c2c8d535751268
+  path_provider_foundation: 3784922295ac71e43754bd15e0653ccfd36a147c
+  permission_handler_apple: e76247795d700c14ea09e3a2d8855d41ee80a2e6
+  WebRTC-SDK: c24d2a6c9f571f2ed42297cb8ffba9557093142b
 
 PODFILE CHECKSUM: d92573c843cf4d6f1b4d67481fbe8b918a3f9b0b
 

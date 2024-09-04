@@ -34,12 +34,16 @@ class CallkitService {
   bool hasCallInProgress = false;
 
   Future<void> requestPermission() async {
-    await FlutterCallkitIncoming.requestNotificationPermission({
-      "rationaleMessagePermission":
-          "Notification permission is required, to show notification.",
-      "postNotificationMessageRequired":
-          "Notification permission is required, Please allow notification permission from setting."
-    });
+    try {
+      await FlutterCallkitIncoming.requestNotificationPermission({
+        "rationaleMessagePermission":
+            "Notification permission is required, to show notification.",
+        "postNotificationMessageRequired":
+            "Notification permission is required, Please allow notification permission from setting."
+      });
+    } catch (e) {
+      print('error: $e');
+    }
   }
 
   Future<void> receiveCall() async {
@@ -47,7 +51,7 @@ class CallkitService {
       return;
     }
 
-    await requestPermission();
+    // await requestPermission();
     _initListeners();
 
     await _createConnection();
